@@ -7,8 +7,8 @@ on:
   pull_request:
     branches:
       - main
-  schedule:
-    - cron:  '0 0 12 1 *' # Every month on the 1st, at noon
+#  schedule:
+#    - cron:  '0 0 12 1 *' # Every month on the 1st, at noon
 
 jobs:
   build:
